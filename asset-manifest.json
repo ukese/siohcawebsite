@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.css": "/siohcawebsite/static/css/main.1f8814d1.css",
-    "main.js": "/siohcawebsite/static/js/main.08f3181d.js",
-    "static/js/227.cf93e6b3.chunk.js": "/siohcawebsite/static/js/227.cf93e6b3.chunk.js",
-    "static/js/526.8cc3930f.chunk.js": "/siohcawebsite/static/js/526.8cc3930f.chunk.js",
-    "static/js/232.c57afe6a.chunk.js": "/siohcawebsite/static/js/232.c57afe6a.chunk.js",
-    "static/js/237.86e1d986.chunk.js": "/siohcawebsite/static/js/237.86e1d986.chunk.js",
+    "main.css": "/siohcawebsite/static/css/main.54900161.css",
+    "main.js": "/siohcawebsite/static/js/main.3261d0e6.js",
+    "static/js/227.0d37955e.chunk.js": "/siohcawebsite/static/js/227.0d37955e.chunk.js",
+    "static/js/526.9296dbde.chunk.js": "/siohcawebsite/static/js/526.9296dbde.chunk.js",
+    "static/js/232.ff4dac58.chunk.js": "/siohcawebsite/static/js/232.ff4dac58.chunk.js",
+    "static/js/237.6f9450ff.chunk.js": "/siohcawebsite/static/js/237.6f9450ff.chunk.js",
     "static/js/787.b57fb56a.chunk.js": "/siohcawebsite/static/js/787.b57fb56a.chunk.js",
     "static/media/team.jpg": "/siohcawebsite/static/media/team.cc4d81c76c87c6e1f15a.jpg",
     "static/media/ulmf.svg": "/siohcawebsite/static/media/ulmf.fe2105765e44f771448d3f93340c9f20.svg",
@@ -28,16 +28,16 @@
     "index.html": "/siohcawebsite/index.html",
     "static/media/gradient-dark.svg": "/siohcawebsite/static/media/gradient-dark.b15b20eb995a13dad2f7.svg",
     "static/media/gradient-dark-bottom.svg": "/siohcawebsite/static/media/gradient-dark-bottom.da52f569fe3f894ba4f8.svg",
-    "main.1f8814d1.css.map": "/siohcawebsite/static/css/main.1f8814d1.css.map",
-    "main.08f3181d.js.map": "/siohcawebsite/static/js/main.08f3181d.js.map",
-    "227.cf93e6b3.chunk.js.map": "/siohcawebsite/static/js/227.cf93e6b3.chunk.js.map",
-    "526.8cc3930f.chunk.js.map": "/siohcawebsite/static/js/526.8cc3930f.chunk.js.map",
-    "232.c57afe6a.chunk.js.map": "/siohcawebsite/static/js/232.c57afe6a.chunk.js.map",
-    "237.86e1d986.chunk.js.map": "/siohcawebsite/static/js/237.86e1d986.chunk.js.map",
+    "main.54900161.css.map": "/siohcawebsite/static/css/main.54900161.css.map",
+    "main.3261d0e6.js.map": "/siohcawebsite/static/js/main.3261d0e6.js.map",
+    "227.0d37955e.chunk.js.map": "/siohcawebsite/static/js/227.0d37955e.chunk.js.map",
+    "526.9296dbde.chunk.js.map": "/siohcawebsite/static/js/526.9296dbde.chunk.js.map",
+    "232.ff4dac58.chunk.js.map": "/siohcawebsite/static/js/232.ff4dac58.chunk.js.map",
+    "237.6f9450ff.chunk.js.map": "/siohcawebsite/static/js/237.6f9450ff.chunk.js.map",
     "787.b57fb56a.chunk.js.map": "/siohcawebsite/static/js/787.b57fb56a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1f8814d1.css",
-    "static/js/main.08f3181d.js"
+    "static/css/main.54900161.css",
+    "static/js/main.3261d0e6.js"
   ]
 }
