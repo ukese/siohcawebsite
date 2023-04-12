@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/siohcawebsite/static/css/main.cd0566bd.css",
-    "main.js": "/siohcawebsite/static/js/main.777467de.js",
+    "main.js": "/siohcawebsite/static/js/main.a3a4efc7.js",
     "static/js/227.cf93e6b3.chunk.js": "/siohcawebsite/static/js/227.cf93e6b3.chunk.js",
     "static/js/526.8cc3930f.chunk.js": "/siohcawebsite/static/js/526.8cc3930f.chunk.js",
     "static/js/232.c57afe6a.chunk.js": "/siohcawebsite/static/js/232.c57afe6a.chunk.js",
@@ -29,7 +29,7 @@
     "static/media/gradient-dark.svg": "/siohcawebsite/static/media/gradient-dark.b15b20eb995a13dad2f7.svg",
     "static/media/gradient-dark-bottom.svg": "/siohcawebsite/static/media/gradient-dark-bottom.da52f569fe3f894ba4f8.svg",
     "main.cd0566bd.css.map": "/siohcawebsite/static/css/main.cd0566bd.css.map",
-    "main.777467de.js.map": "/siohcawebsite/static/js/main.777467de.js.map",
+    "main.a3a4efc7.js.map": "/siohcawebsite/static/js/main.a3a4efc7.js.map",
     "227.cf93e6b3.chunk.js.map": "/siohcawebsite/static/js/227.cf93e6b3.chunk.js.map",
     "526.8cc3930f.chunk.js.map": "/siohcawebsite/static/js/526.8cc3930f.chunk.js.map",
     "232.c57afe6a.chunk.js.map": "/siohcawebsite/static/js/232.c57afe6a.chunk.js.map",
@@ -38,6 +38,6 @@
   },
   "entrypoints": [
     "static/css/main.cd0566bd.css",
-    "static/js/main.777467de.js"
+    "static/js/main.a3a4efc7.js"
   ]
 }
