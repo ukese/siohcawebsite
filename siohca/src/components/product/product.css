@@ -1,0 +1,32 @@
+.product {
+    display: flex;
+    flex-direction: row;
+    padding: 5rem 13vw;
+}
+
+.product-image {
+    border-radius: 20px;
+    transition: transform .8s ease;
+    overflow: hidden;
+    width: 40vw;
+
+}
+
+.product-image img {
+    width: 40vw;
+    box-shadow: 5px 5px 5px 5px var(--color-box-shadow-medium);
+    border-radius: 20px;
+    transition: transform .8s ease;
+    
+}
+.product-image img:hover {
+    transform: scale(1.08);
+    transition: transform .8s ease;
+    border-radius: 20px;
+    
+}
+
+
+.product-text {
+    padding-left: 5vw;
+}

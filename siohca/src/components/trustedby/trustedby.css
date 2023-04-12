@@ -1,0 +1,56 @@
+.trustedby-box{
+    align-items: center;
+    text-align: center;
+    padding-bottom: 8vh;
+    padding-top: 3vh;
+}
+
+.trustedby-box img {
+    width: 8vw;
+    border-radius: 10px;
+}
+
+.trustedby-logos{
+
+    display: grid;
+    grid-template-columns: repeat(7, 11vw);
+    justify-content: space-evenly;
+
+
+
+
+  padding: 1rem 0rem;
+  transition: fade 0.4s ease-out;
+
+}
+
+.trustedby-logos-item {
+    display: flex;
+    justify-content: center;
+    height: 12vw;
+    width: 12vw;
+    fill: var(--color-text);
+    background-color: #b2aae737;
+    border: solid #aca3e937 2px;
+    border-radius: 50%;
+    transition: 0.4s ease;
+    padding: 0.5rem;
+}
+.trustedby-logos-item:hover {
+    background-color: #b2aae75d;
+    border: solid #b2aae75d 0px;
+    border-radius: 50%;
+    transition: 0.4s ease;
+    box-shadow:  0px 0px 10px 10px var(--color-box-shadow-medium);
+}
+
+@media screen and (max-width: 1000px) {
+    .trustedby-logos{
+        display: grid;
+        grid-template-columns: repeat(4, 16vw);
+        column-gap: 2vw;
+        row-gap: 3vw;
+
+    }
+}
+    

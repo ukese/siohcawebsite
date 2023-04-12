@@ -1,0 +1,37 @@
+.acknowledgements-box{
+    align-items: center;
+    padding: 5rem;
+  
+}
+
+
+.acknowledgements-box-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.acknowledgements-box-row .diamond-icon {
+    margin-right: 10px;
+    margin-top: 4px;
+    color: var(--color-icon);
+}
+
+.acknowledgements-box b{
+    font-size: 1.1rem;
+}
+
+@media screen and (max-width: 100px){
+    .acknowledgements-box b{
+        font-size: 1.rem;
+    }
+    
+}
+
+@media screen and (max-width: 800px){
+    .acknowledgements-box b{
+        font-size: 0.9rem;
+    }
+    
+}
+    
+

@@ -1,0 +1,67 @@
+.utstein {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    height: 100%;
+
+}
+
+
+
+.utstein-title {
+    color:  hwb(247 54% 8%);
+    text-align: center;
+}
+
+.utstein-text {
+    padding: 0vw 5vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    justify-content: space-evenly;
+    position: relative;
+    bottom: 0;
+}
+
+
+
+.utstein-text-column {
+ margin: 0 3vw;
+
+ text-align: justify;
+ justify-content: center;
+border: none;
+align-items: center;
+align-content: center;
+
+}
+
+.utstein-text-column p {
+  
+    justify-content: center;
+    font-weight: 200;
+   }
+
+.utstein-text-column h1{
+
+    text-align: center;
+}
+
+.utstein-text-column h3{
+    text-align: center;
+}
+.utstein-text-column .button {
+  padding: 1vw 1vw;
+  width: 30%;
+  font-size: 1vw;
+}
+
+.utstein-text-column a{
+    color: var(--color-text);
+    font-family: var(--font-title);
+    font-weight: 500;
+}
+
+.utstein-text-column a:hover{
+    color: var(--link-color);
+}

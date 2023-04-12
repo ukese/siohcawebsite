@@ -1,0 +1,33 @@
+.recent {
+    padding: 10vh 10vw;
+}
+
+
+.blog-posts{
+    display: flex;
+    flex-direction: row;
+}
+
+.recent-button .button {
+    padding: 1.5vw;
+    width: max-content;
+    font-size: 1.5vw;
+    font-weight: 800;
+}
+
+
+@media screen and (max-width: 800px) {
+    .recent-button .button {
+        font-size: 2vw;
+        padding: 2vw;
+    }
+  }
+
+
+  @media screen and (max-width: 600px) {
+    .recent-button .button {
+        font-size: 3vw;
+        padding: 3vw;
+    }
+  }
+  

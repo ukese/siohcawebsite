@@ -1,0 +1,263 @@
+.siohca-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 5px 5px 5px 5px rgba(139, 113, 151, 0.1);
+    border-radius: 10px;
+    border: solid black 1px;
+    position: relative;
+    margin: 3vw 10vw 1vw;
+    z-index: 9999999;
+    height: 8vh;
+
+}
+
+ .siohca-navbar a {
+    text-decoration: none;
+    color: var(--color-text);
+ }
+
+ .siohca-navbar p{
+    text-align:left;
+    font-size: 1.2vw;
+ }
+
+ .siohca-navbar a:hover {
+    color: var(--color-link);
+    
+ }
+
+.siohca-navbar-links_container {
+    display: grid;
+    grid-template-columns: repeat(5, max-content);
+    grid-gap: 10px;
+    list-style: none;
+    align-items: center;
+    padding: 15px 0 15px 0;
+    position: absolute;
+    float: none;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.siohca-navbar-links_social {
+    align-items: center;
+    position: absolute;
+    right: 30px ;
+}
+.siohca-navbar-links_social:hover{
+    opacity: 80%;
+}
+
+
+.siohca-navbar-links_logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+
+.siohca-navbar-links_logo:hover{
+    opacity: 80%;
+    cursor: pointer;
+}
+
+.siohca-navbar-links_container p a {
+    text-decoration: none;
+    padding:0 15px 0 15px;
+    transition: all 0.2s ease-in-out;
+    border: 1px solid transparent;
+    border-radius: 10px;
+}
+
+.siohca-navbar-links_container p a:hover{
+    border: 1px solid #4e3676;
+    border-radius: 10px;
+    transform: matrix(1.05, 0, 0, 1.05, 0, 0);
+    padding:5px 15px 5px 15px;
+    transition: all 0.25s ease-in-out;
+}
+
+.siohca-navbar .siohca-navbar-links_container p a.active-navbar-link {
+    border: 1px solid #4e3676;
+    border-radius: 10px;
+    transform: matrix(1.05, 0, 0, 1.05, 0, 0);
+    padding:5px 15px 5px 15px;
+    transition: all 0.25s ease-in-out;
+}
+
+
+.siohca-navbar-menu{
+    left: calc(50% - 96px);
+    align-items: center;
+    justify-content: center;
+    visibility: hidden;
+    display: none;
+    text-align: center;
+}
+
+.siohca-navbar-menu p{
+    text-align: center;
+    padding: 5pt;
+
+    font-size: 2vw;
+}
+
+.siohca-navbar-menu a{
+    color: var(--color-text);
+    padding:0 15px 0 15px;
+    transition: all 0.2s ease-in-out;
+    border: 1px solid transparent;
+    border-radius: 10px;
+}
+
+.siohca-navbar-menu a:hover{
+    color: var(--color-link);
+    border: 1px solid #4e3676;
+border-radius: 10px;
+transform: matrix(1.05, 0, 0, 1.05, 0, 0);
+padding:5px 15px 5px 15px;
+transition: all 0.25s ease-in-out;
+}
+
+
+
+siohca-navbar-links_logo svg:hover{
+    fill: var(--color-link);
+}
+
+.siohca-navbar-menu-icon {
+    display: none;
+    cursor: pointer;
+}
+
+.vscmenu{
+    display: none;
+}
+.vscclose{
+    display: none;
+}
+
+
+
+@media screen and (max-width: 1100px){
+
+    .siohca-navbar {
+        z-index: 99;
+        height:auto;
+
+    }
+    .siohca-navbar-links_logo{
+        padding:  0 0 0 20px ;
+        border: 0;
+    }
+    .list-item{
+         list-style-type: none; 
+    }
+    .siohca-navbar-menu-icon {
+        display: block;
+        position: absolute;
+        right : 20px;
+    }
+
+
+   .siohca-navbar-links_container {
+    display: none;
+    
+    }
+
+
+    .siohca-navbar-links_social {
+        display: none;  
+        
+    }
+
+    .menu-icons{
+        display: block;
+        align-items: center;
+        padding-left: 0;
+        padding-right: 20px;
+    }
+
+    .vscmenu{
+        display: block;
+    }
+
+    .siohca-navbar-menu p{
+        transition: opacity 1s ease-in-out;
+        opacity: 1;
+        visibility: visible;
+    }
+
+}
+
+@media screen and (max-width: 750px) {
+
+    .menu-icons{
+        display: block;
+        align-items: center;
+        padding-left: 0;
+        padding-right: 20px;
+    }
+
+    .vscmenu{
+        display: block;
+    }
+    
+}
+
+@media screen and (max-width: 1000px) {
+   .siohca-navbar{
+    margin-bottom: 2vw;
+   }
+}
+
+
+
+
+
+
+@media screen and (max-width: 600px){
+    .siohca-navbar-links_container p{
+        font-size: 1.0rem;
+        transition: all 1.5s ease;
+    }
+
+    .menu-icons{
+        display: block;
+        align-items: center;
+        padding-left: 0;
+        padding-right: 20px;
+    }
+
+    .vscmenu{
+        display: block;
+    }
+}
+
+
+
+@media screen and (max-width: 400px){
+    .siohca-navbar-links_container p{
+        font-size: 0.8rem;
+        transition: all 1.5s ease;
+    }
+
+     .menu-icons{
+        display: block;
+        align-items: center;
+        padding-left: 0;
+        padding-right: 20px;
+    }
+
+    .vscmenu{
+        display: block;
+    }
+  
+}
+
+
+
+

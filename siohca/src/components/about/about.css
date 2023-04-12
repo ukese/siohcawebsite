@@ -1,0 +1,77 @@
+
+
+.about-siohca {
+    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0vw 11vw 0vw;
+    padding: 0vw 2vw 10vw;
+    height: 90vh;
+}
+
+.about-siohca column-box {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.about-siohca p{
+    font-size: 1.2rem;
+
+}
+.canvas3d {
+   
+    height: 100%;
+    padding-top: 20px;
+}
+.canvas3d-medium{
+    display: none;
+}
+
+.canvas3d-small{
+    display: none;
+}
+
+
+
+.about-siohca .column-box p.button {
+    width: 40% ;
+    margin-right: 20vw;
+}
+
+@media screen and (max-width: 1000px) {
+    .about-siohca {
+        margin: 0vw 9vw 1vw;
+    }
+    .canvas3d {
+        display: none;
+    }
+    .canvas3d-medium{
+        display: block;
+        height: 100%;
+        padding-top: 20px;
+    }
+
+}
+
+
+@media screen and (max-width: 600px) {
+    .about-siohca {
+        margin: 0vw 9vw 1vw;
+    }
+    .canvas3d {
+        display: none;
+    }
+
+    .canvas3d-medium {
+        display: none;
+    }
+    .canvas3d-small{
+        display: block;
+        height: 100%;
+    }
+
+    .about-siohca .column-box p.button {
+        width: 80% ;
+
+    }
+}

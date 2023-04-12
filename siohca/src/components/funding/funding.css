@@ -1,0 +1,67 @@
+.funding {
+    color:  hwb(247 42% 10%); 
+    width: 100vw;
+    padding: 3rem 5rem;
+    text-align: center;
+    fill: var(--color-text-light) !important;
+
+
+}
+.funding p {
+    font-weight: 200;
+}
+.funding h2 {
+    align-items: center;
+    text-align: center;
+    color:  hwb(247 54% 8%); 
+}
+.funding-box{
+    align-items: center;
+}
+
+.funding-box-row {
+    display: flex;
+    flex-direction: row;
+    padding: 0 20rem;
+
+}
+.funding-box.box{
+    margin-top: 40px;
+    padding-top:30px;
+}
+
+
+
+.funding-logos{
+    padding-top: 10vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    fill: var(--color-text-light) !important;
+    
+
+}
+
+.funding-logos img {
+    width: 18vw;
+    fill: var(--color-text-light) !important;
+}
+
+.funding-logos img#um {
+    width: 16vw;
+    fill: var(--color-text-light) !important;
+}
+
+.funding-logos svg {
+    fill: var(--color-text-light) !important;
+}
+
+.funding-logos-item {
+    width: 16vw;
+    fill: var(--color-text-light) !important;
+}
+
+.funding-logos-item#um {
+    width: 12vw;
+}
