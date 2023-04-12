@@ -1,11 +1,18 @@
 import React from 'react';
+import ReactMarkdown from 'react-markdown';
+import rehypeRaw from 'rehype-raw';
+import './blogpost.css'
 
-const BlogPost = ({ title, content }) => {
+const BlogPost = ({ title, content, date }) => {
   return (
-    <div>
-      <h1>{title}</h1>
-      <h2>Here</h2>
-      <p>{content}</p>
+    <div className='blogpost'>
+        <div className='blogpost-heading'>
+            <h1 className='blogpost-heading-title'>{title}</h1>
+            <p className='blogpost-heading-date'>{date}</p>
+        </div>
+      <p className='blogpost-content'>
+        <ReactMarkdown rehypePlugins={[rehypeRaw]}>{content}</ReactMarkdown >
+      </p>
     </div>
   );
 };

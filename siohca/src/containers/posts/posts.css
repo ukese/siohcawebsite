@@ -1,0 +1,13 @@
+.posts {
+    margin: 5vw 10vw;
+}
+
+.post {
+    margin: 5vw 0vw !important;
+
+}
+
+.posts a{
+    color: var(--color-text);
+}
+

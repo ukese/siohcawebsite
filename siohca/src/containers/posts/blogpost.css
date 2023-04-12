@@ -1,0 +1,17 @@
+.blogpost {
+    margin: 5vw 10vw;
+  }
+
+.blogpost-heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.blogpost h1 {
+    margin-bottom: 10vh;
+}
+
+.blogpost h2 {
+    margin-bottom: 5vh;
+}

@@ -34,11 +34,15 @@ function App() {
           return fetch(file.download_url)
             .then(response => response.text())
             .then(content => ({
-              title: file.name.replace('.md', '').split('-').slice(3).join(' ').charAt(0).toUpperCase()
+              posttitle: file.name.replace('.md', '').split('-').slice(3).join(' ').charAt(0).toUpperCase()
               + file.name.replace('.md', '').split('-').slice(3).join(' ').slice(1),
               date: file.name.replace('.md', '').split('-').slice(0, 3).join('-'),
-              short: content.slice(0, 100),
-              content: content
+              link: file.name.replace('.md', '').split('-').slice(3).join(' ').replace(/-|_| /g, '').toLowerCase(),
+              title: content.split('---')[1].split('Featuresdate')[0].replace('title:', '').trim(),
+              categories: content.split('categories:')[1].split('tags:')[0].trim(),
+              tags: content.split('tags:')[1].trim(),
+              short: content.split('---')[2].trim().replace(/[\]\[#]/g, '').replace(/\([^)]*\)/g, '').replace(/\s+/g, ' ').slice(0, 300),
+              content: content.split('---')[2].trim()
             }));
         });
         Promise.all(fetchPosts)
@@ -68,7 +72,7 @@ function App() {
               <Route path='/eureca3' element={<EuReCa3/>} />
               <Route path='/contacts' element={<Contacts/>} />
               {posts.map(post => (
-              <Route path={`/posts/${post.title}`} element={<BlogPost title={post.title} content={post.content}/>} />
+              <Route path={`/posts/${post.link}`} element={<BlogPost title={post.title} content={post.content} date={post.date}/>} />
               ))}
 
           </Routes>
