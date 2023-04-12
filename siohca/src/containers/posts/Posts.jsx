@@ -1,25 +1,38 @@
-import React, { useState, useEffect } from 'react';
-import ReactMarkdown from 'react-markdown';
-import rehypeRaw from 'rehype-raw';
+import React, { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 
-var fs = require('fs');
-var files = fs.readFileSync('../../posts/');
-console.log(files);
 const Posts = () => {
-  const [markdown, setMarkdown] = useState('');
+  const [posts, setPosts] = useState([]);
 
   useEffect(() => {
-    fetch('https://raw.githubusercontent.com/SterArcher/OHCA-registry-Slovenia/gh-pages/_posts/2022-04-20-see%20you%20in%20Glasgow.md')
-      .then(response => response.text())
-      .then(markdown => setMarkdown(markdown))
-      .catch(error => {
-        console.error('Error fetching markdown:', error);
-      });
+    fetch('https://github.com/ukese/siohcawebsite/tree/dev/siohca/src/posts') 
+      .then(response => response.json())
+      .then(data => {
+        const fetchPosts = data.map(file => {
+          return fetch(file.download_url)
+            .then(response => response.text())
+            .then(content => ({
+              title: file.name.replace('.md', ''),
+              content: content
+            }));
+        });
+        Promise.all(fetchPosts)
+          .then(posts => setPosts(posts))
+          .catch(err => console.log(err));
+      })
+      .catch(err => console.log(err));
   }, []);
 
   return (
     <div>
-      <ReactMarkdown rehypePlugins={[rehypeRaw]}>{markdown}</ReactMarkdown>
+      <h1>Blog Posts</h1>
+      {posts.map(post => (
+        <div key={post.title}>
+          <Link to={`/posts/${post.title}`}>
+            <h2>{post.title}</h2>
+          </Link>
+        </div>
+      ))}
     </div>
   );
 };
