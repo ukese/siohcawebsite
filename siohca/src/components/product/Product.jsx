@@ -1,6 +1,6 @@
 import React from 'react'
 import './product.css'
-import formPhoto from '../../assets/img/form.png'
+import formPhoto from '../../assets/img/form.jpg'
 
 
 
