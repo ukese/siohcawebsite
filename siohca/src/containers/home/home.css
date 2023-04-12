@@ -1,0 +1,74 @@
+.home-background {
+}
+.home-background-two-circles {
+    background: url("../../assets/svg/background/gradient.svg");
+    background-color: var(--color-bg-extra-light)!important;
+    height: 170vh;
+    width: 100vw;
+    background-size: cover;
+}
+
+
+.home-background-ohca {
+
+    color: var(--color-text);
+    height: 80vh;
+}
+.home-background-recent{
+    height: 70vh;
+    width: 100vw;
+    
+}
+
+
+
+.home-background-utstein {
+    background: url("../../assets/svg/background/gradient-dark.svg");
+    background-size: cover;
+    background-color: var(--color-bg-medium) !important;
+
+    width: 100vw;
+    height: 50vw;
+    color: var(--color-text-light);
+    
+}
+
+.background-circle {
+    background: url("../../assets/svg/background/gradient-dark.svg");
+    background-size: auto;
+    background-color: var(--color-bg-medium) !important;
+    height: 100vw;
+
+}
+
+
+.home-background-funding {
+    background: url("../../assets/svg/background/gradient-dark-bottom.svg");
+    background-size: cover;
+    background-color: var(--color-bg-medium) !important;
+
+    width: 100vw;
+    height: 80vh;
+    color: var(--color-text-light);
+}
+
+.home-background-trustedby{
+    width: 100vw;
+    background-color: var(--color-bg-medium) !important;
+}
+.home-background-product{
+
+    width: 100vw;
+    background-color: var(--color-bg-medium);
+}
+.home-background-meet{
+
+    width: 100vw;
+    background-color: var(--color-bg-medium);
+}
+
+.home-background-ack {
+    background-color: var(--color-bg-extra-light)!important;
+    background: url("../../assets/svg/background/gradient.svg");
+    background-size: cover;
+}

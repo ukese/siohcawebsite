@@ -1,0 +1,74 @@
+.team-box {
+    position: relative;
+}
+
+.mentors-box{
+    display: grid;
+    justify-content: space-evenly;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 10px;
+    
+}
+
+
+.students-box{
+    display: grid;
+    justify-content: space-evenly;
+    align-items: center;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 10px;
+}
+
+img {
+    width:100%;
+    border-radius: 10px;
+}
+
+.card {
+    box-shadow: 5px 5px 5px 5px rgba(139, 113, 151, 0.1);
+    border-radius: 10px;
+    border: solid black 1px;
+    padding: 1rem;
+    width: 10vw;
+    height: 15vw;
+   
+    
+}
+
+.card:hover{
+    background-color: var(--color-bg);
+}
+
+#ps{
+    font-size: 0.7rem;
+}
+
+
+@media screen and (max-width: 1200px) {
+    .students-box {
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(2, max-content);
+        grid-gap: 2vw;
+
+    }
+
+    .card{
+        width: 12vw;
+        height: 16vw;
+    }
+    
+}
+
+
+@media screen and (max-width: 900px) {
+    .students-box {
+        grid-template-columns: repeat(3, 1fr);
+
+    }
+
+    .card{
+        width: 20vw;
+        height: 26vw;
+    }
+    
+}

@@ -1,0 +1,13 @@
+.footer {
+    text-align: center;
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-logo svg {
+    width: 100px;
+    margin-bottom: 1vh;
+}
