@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/siohcawebsite/static/css/main.cd0566bd.css",
+    "main.js": "/siohcawebsite/static/js/main.777467de.js",
+    "static/js/227.cf93e6b3.chunk.js": "/siohcawebsite/static/js/227.cf93e6b3.chunk.js",
+    "static/js/526.8cc3930f.chunk.js": "/siohcawebsite/static/js/526.8cc3930f.chunk.js",
+    "static/js/232.c57afe6a.chunk.js": "/siohcawebsite/static/js/232.c57afe6a.chunk.js",
+    "static/js/237.86e1d986.chunk.js": "/siohcawebsite/static/js/237.86e1d986.chunk.js",
+    "static/js/787.b57fb56a.chunk.js": "/siohcawebsite/static/js/787.b57fb56a.chunk.js",
+    "static/media/team.jpg": "/siohcawebsite/static/media/team.cc4d81c76c87c6e1f15a.jpg",
+    "static/media/ulmf.svg": "/siohcawebsite/static/media/ulmf.fe2105765e44f771448d3f93340c9f20.svg",
+    "static/media/ummf.svg": "/siohcawebsite/static/media/ummf.9d6c3bfc64a0d6af55c0a54cf46967a5.svg",
+    "static/media/social-media-marketing-growth.png": "/siohcawebsite/static/media/social-media-marketing-growth.25e46c025780bfdf9b4d.png",
+    "static/media/zdad.svg": "/siohcawebsite/static/media/zdad.1338c94641d9f828963bb5ffd8029c58.svg",
+    "static/media/form.png": "/siohcawebsite/static/media/form.c1984f23ee5c99a2bc6b.png",
+    "static/media/call.png": "/siohcawebsite/static/media/call.0a31fc488993acbf990f.png",
+    "static/media/szum.svg": "/siohcawebsite/static/media/szum.8274891ce29701ade2ba093372258964.svg",
+    "static/media/ukcmb.svg": "/siohcawebsite/static/media/ukcmb.02582456ae4e9b0cf07d5696b1714570.svg",
+    "static/media/slors.svg": "/siohcawebsite/static/media/slors.006eda79a9725f5cf7a80b1392945864.svg",
+    "static/media/ukclj.svg": "/siohcawebsite/static/media/ukclj.e8a7215390ee3dfbc1ed1cdfabf8cc72.svg",
+    "static/media/mizs.svg": "/siohcawebsite/static/media/mizs.23dd716ae80c5870d03ff0a7f8ec6fd3.svg",
+    "static/media/ess.svg": "/siohcawebsite/static/media/ess.1bef2b74b37451ae5835bb2a20fd1635.svg",
+    "static/media/template.jpeg": "/siohcawebsite/static/media/template.903d0de804ea24cf302b.jpeg",
+    "static/media/um.svg": "/siohcawebsite/static/media/um.3db2a91e09082e0ac1a370d5196a16e5.svg",
+    "static/media/logo-large.svg": "/siohcawebsite/static/media/logo-large.91b7c32b1ff6c35458a6602839f495fa.svg",
+    "static/media/logo-small.svg": "/siohcawebsite/static/media/logo-small.776bf84ce83aef2739db22f7ec264afc.svg",
+    "index.html": "/siohcawebsite/index.html",
+    "static/media/gradient.svg": "/siohcawebsite/static/media/gradient.d439cfabc6f58511422b.svg",
+    "static/media/gradient-dark.svg": "/siohcawebsite/static/media/gradient-dark.b15b20eb995a13dad2f7.svg",
+    "static/media/gradient-dark-bottom.svg": "/siohcawebsite/static/media/gradient-dark-bottom.da52f569fe3f894ba4f8.svg",
+    "main.cd0566bd.css.map": "/siohcawebsite/static/css/main.cd0566bd.css.map",
+    "main.777467de.js.map": "/siohcawebsite/static/js/main.777467de.js.map",
+    "227.cf93e6b3.chunk.js.map": "/siohcawebsite/static/js/227.cf93e6b3.chunk.js.map",
+    "526.8cc3930f.chunk.js.map": "/siohcawebsite/static/js/526.8cc3930f.chunk.js.map",
+    "232.c57afe6a.chunk.js.map": "/siohcawebsite/static/js/232.c57afe6a.chunk.js.map",
+    "237.86e1d986.chunk.js.map": "/siohcawebsite/static/js/237.86e1d986.chunk.js.map",
+    "787.b57fb56a.chunk.js.map": "/siohcawebsite/static/js/787.b57fb56a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cd0566bd.css",
+    "static/js/main.777467de.js"
+  ]
+}
