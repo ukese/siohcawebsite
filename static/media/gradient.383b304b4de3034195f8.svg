@@ -1,0 +1,29 @@
+<svg
+  viewBox="0 0 10 10"
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <radialGradient id="myGradient">
+
+      <stop offset="30%" stop-color="#a69bed" />
+      <stop offset="93%" stop-color="#f1efff" />
+
+    </radialGradient>
+     <radialGradient id="myGradient2">
+
+      <stop offset="40%" stop-color="#f1efff" />
+      <stop offset="90%" stop-color="#a69bed6e" />
+
+    </radialGradient>
+      <radialGradient id="myGradient3">
+
+      <stop offset="20%" stop-color="#f1efff" />
+      <stop offset="90%" stop-color="#a69bed32" />
+
+    </radialGradient>
+  </defs>
+
+  <!-- using my radial gradient -->
+  <circle cx="10.5" cy="5" r="2.5" fill="url('#myGradient')" />
+  <circle cx="-1" cy="2" r="3" fill="url('#myGradient')" />
+</svg>

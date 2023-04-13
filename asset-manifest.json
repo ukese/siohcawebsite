@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.4f2097af.css",
-    "main.js": "/static/js/main.992003ae.js",
+    "main.css": "/static/css/main.fa1d5da3.css",
+    "main.js": "/static/js/main.6c4e71dd.js",
     "static/js/227.0d37955e.chunk.js": "/static/js/227.0d37955e.chunk.js",
     "static/js/526.9296dbde.chunk.js": "/static/js/526.9296dbde.chunk.js",
     "static/js/232.ff4dac58.chunk.js": "/static/js/232.ff4dac58.chunk.js",
@@ -24,12 +24,12 @@
     "static/media/um.svg": "/static/media/um.3db2a91e09082e0ac1a370d5196a16e5.svg",
     "static/media/logo-large.svg": "/static/media/logo-large.91b7c32b1ff6c35458a6602839f495fa.svg",
     "static/media/logo-small.svg": "/static/media/logo-small.776bf84ce83aef2739db22f7ec264afc.svg",
-    "static/media/gradient.svg": "/static/media/gradient.12ecef21312fa261ee37.svg",
+    "static/media/gradient.svg": "/static/media/gradient.383b304b4de3034195f8.svg",
     "index.html": "/index.html",
     "static/media/gradient-dark.svg": "/static/media/gradient-dark.b15b20eb995a13dad2f7.svg",
     "static/media/gradient-dark-bottom.svg": "/static/media/gradient-dark-bottom.da52f569fe3f894ba4f8.svg",
-    "main.4f2097af.css.map": "/static/css/main.4f2097af.css.map",
-    "main.992003ae.js.map": "/static/js/main.992003ae.js.map",
+    "main.fa1d5da3.css.map": "/static/css/main.fa1d5da3.css.map",
+    "main.6c4e71dd.js.map": "/static/js/main.6c4e71dd.js.map",
     "227.0d37955e.chunk.js.map": "/static/js/227.0d37955e.chunk.js.map",
     "526.9296dbde.chunk.js.map": "/static/js/526.9296dbde.chunk.js.map",
     "232.ff4dac58.chunk.js.map": "/static/js/232.ff4dac58.chunk.js.map",
@@ -37,7 +37,7 @@
     "787.b57fb56a.chunk.js.map": "/static/js/787.b57fb56a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4f2097af.css",
-    "static/js/main.992003ae.js"
+    "static/css/main.fa1d5da3.css",
+    "static/js/main.6c4e71dd.js"
   ]
 }
