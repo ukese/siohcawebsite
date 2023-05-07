@@ -33,9 +33,10 @@
 
 
 
-.about-siohca .column-box p.button {
+.about-siohca .column-box button {
     width: 40% ;
     margin-right: 20vw;
+    padding: 0px !important;
 }
 
 @media screen and (max-width: 1000px) {
@@ -70,7 +71,7 @@
         height: 100%;
     }
 
-    .about-siohca .column-box p.button {
+    .about-siohca .column-box button {
         width: 80% ;
 
     }

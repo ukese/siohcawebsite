@@ -13,35 +13,50 @@ import { Link } from 'react-router-dom';
 
 const TrustedBy = () => {
   return (
-    <Fade bottom>
     <div className='trustedby-box'>
+      <Fade top>
       <div className='margin-bottom-2'><h2>Trusted by</h2></div>
+      </Fade>
       <div className='trustedby-logos'>
+        <Fade bottom delay={100}>
         <Link to={"https://www.mf.um.si/"} target="_blank">
           <div className='trustedby-logos-item'><UMMF/></div>
         </Link>
+        </Fade>
+        <Fade bottom delay={150}>
         <Link to={"https://www.mf.uni-lj.si/"} target="_blank">
           <div className='trustedby-logos-item'><ULMF /></div>
         </Link>
+        </Fade>
+        <Fade bottom delay={200}>
         <Link to={"https://www.ukc-mb.si/"} target="_blank">
           <div className='trustedby-logos-item'><UKCMB/></div>
         </Link>
+        </Fade>
+        <Fade bottom delay={250}>
         <Link to={"https://www.kclj.si/"} target="_blank">
           <div className='trustedby-logos-item'><UKCLJ/></div>
         </Link>
+        </Fade>
+        <Fade bottom delay={300}>
         <Link to={"https://www.zd-mb.si/"} target="_blank">
           <div className='trustedby-logos-item'><ZDAD/></div>
         </Link>
+        </Fade>
+        <Fade bottom delay={350}>
         <Link to={"https://www.szum.si/"} target="_blank">
           <div className='trustedby-logos-item'><SZUM/></div>
         </Link>
+        </Fade>
+        <Fade bottom delay={400}>
         <Link to={"http://slors.szum.si/"} target="_blank">
           <div className='trustedby-logos-item'><SLORS/></div>
         </Link>
+        </Fade>
       </div>
       
     </div>
-    </Fade>
+
   )
 }
 

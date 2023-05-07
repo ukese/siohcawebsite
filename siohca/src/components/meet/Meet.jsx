@@ -17,9 +17,9 @@ function Meet() {
        <p> We are a team of students and mentors ... </p>
         <div className='meet-the-team-button'>
           <Link to='/team'>
-            <div className='button'>
+            <button>
               Find out more
-            </div>
+            </button>
           </Link>
         </div>
       </div>

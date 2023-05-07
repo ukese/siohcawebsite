@@ -50,7 +50,7 @@ align-content: center;
 .utstein-text-column h3{
     text-align: center;
 }
-.utstein-text-column .button {
+.utstein-text-column button {
   padding: 1vw 1vw;
   width: 30%;
   font-size: 1vw;

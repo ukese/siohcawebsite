@@ -25,11 +25,6 @@ const Navbar = () => {
             </NavLink>
           </p>
           <p>
-            <NavLink to="/eureca3" className={({ isActive }) => isActive ? "active-navbar-link" : undefined}>
-              EuReCa3
-            </NavLink>
-          </p>
-          <p>
             <NavLink to="/publications&press" className={({ isActive }) => isActive ? "active-navbar-link" : undefined}>
               Publications & Press
             </NavLink>

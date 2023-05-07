@@ -9,15 +9,13 @@ const Ohca = () => {
         <div className='ohca-box' >
             <div className='ohca-box-title'>
 
-                <Fade left delay={100}>
+                <Fade delay={100}>
                   <div className='t1'> What is
                   </div>
                 </Fade>
-                <Fade left delay={200}>
+                <Fade delay={200}>
                   <div className='t3'> OHCA</div>
                 </Fade>
-
-                
             </div>
             <div className='ohca-box-text'>
               <Fade bottom delay={200}>
@@ -30,8 +28,6 @@ const Ohca = () => {
                   <p><b>Time is crucial</b>, with a lack of perfusion leading to continual cell death; with each second that passes the possibility of a good outcome decreases.</p>
                 </div>
               </Fade>
-              
-              
               <Fade bottom delay={200}>
                 <div className='box' id='text3'>
                   <p>Despite a long history of trying to improve how we manage OHCA, <b>survival remains dismally low </b>.</p>

@@ -1,37 +1,40 @@
-.acknowledgements-box{
+.acknowledgements {
     align-items: center;
     padding: 5rem;
   
 }
 
+.acknowledgements-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
 
-.acknowledgements-box-row {
-    display: flex;
-    flex-direction: row;
+    grid-gap:20px;
+
+}
+.acknowledgements-content-box {
+    border-radius: 20px;
+    background-color: var(--color-box-light);
+    padding: 2rem;
+    transition: 0.4s ease;
 }
 
-.acknowledgements-box-row .diamond-icon {
-    margin-right: 10px;
-    margin-top: 4px;
-    color: var(--color-icon);
+.acknowledgements-content-box:hover {
+    background-color: var(--color-box-light-hover);
+    transition: 0.4s ease;
+    box-shadow:  0px 0px 10px 10px var(--color-box-shadow);
 }
 
-.acknowledgements-box b{
-    font-size: 1.1rem;
+.acknowledgements-content-box a {
+    color: var(--color-text);
 }
 
-@media screen and (max-width: 100px){
-    .acknowledgements-box b{
-        font-size: 1.rem;
-    }
-    
+.acknowledgements-content-box p{
+    font-weight: 300;
+    font-size: 1.2vw;
 }
 
-@media screen and (max-width: 800px){
-    .acknowledgements-box b{
-        font-size: 0.9rem;
-    }
-    
+.acknowledgements-content-box h3 {
+    color: var(--color-text-title);
+    margin-bottom: 1vh;
 }
-    
 

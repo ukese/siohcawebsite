@@ -168,8 +168,9 @@ b {
     font-weight: 700;
 }
 
-.button {
-  border: 2px solid var(--color-link-transparent) ;
+button {
+  border: 2px solid var(--color-link-transparent);
+  background-color: #ffffff00;
   border-radius: 20px;
   color: var(--color-link);
   overflow: hidden;
@@ -181,9 +182,11 @@ b {
   text-align: center;  
   font-size: 1.vw !important;
   font-weight: 800;
+  cursor: pointer;
+  padding: 1vw 2vw !important;
 }
 
-.button::after {
+button::after {
   background-color: var(--color-link-transparent);
   border-radius: 20px;
   content: '';
@@ -199,17 +202,17 @@ b {
   will-change: transform;
   z-index: -1;
 }
-.button:hover::after {
+button:hover::after {
   transform: translate(0, 0);
 }
-.button:hover {
+button:hover {
   border: 2px solid transparent;
   color: #4b0082;
   transform: scale(1.05);
   will-change: transform;
 }
 
-.button a{
+button a{
   font-size: 2rem;
 }
 
@@ -223,6 +226,24 @@ b {
 
 }
 
+/* Zoom in on img when hover. */
+img {
+  transition: transform .8s ease;
+  overflow: hidden;
+}
+img:hover {
+  transform: scale(1.06);
+  transition: transform .8s ease;
+}
+.img-wrapper {
+  padding: 1vw;
+  border-radius: 20px;
+  margin: 0rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 /* Loading screen */
 .spinner{
 

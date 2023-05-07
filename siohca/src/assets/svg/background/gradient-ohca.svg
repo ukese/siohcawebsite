@@ -15,15 +15,8 @@
       <stop offset="90%" stop-color="#a69bed6e" />
 
     </radialGradient>
-      <radialGradient id="myGradient3">
-
-      <stop offset="20%" stop-color="#f1efff" />
-      <stop offset="90%" stop-color="#a69bed32" />
-
-    </radialGradient>
   </defs>
 
   <!-- using my radial gradient -->
-  <circle cx="10.5" cy="5" r="2.5" fill="url('#myGradient')" />
-  <circle cx="-1" cy="2" r="3" fill="url('#myGradient')" />
+  <circle cx="0" cy="5" r="5" fill="url('#myGradient2')" />
 </svg>

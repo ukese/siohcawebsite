@@ -29,9 +29,9 @@ function About() {
         <p className='margin-bottom-2'>In depth documentation can be found on our </p>
 
           <Link  to="https://github.com/SterArcher/OHCA-registry-Slovenia">
-            <p className='button'>
-              <DiGithubFull color="#000" size={60}/> 
-            </p>
+            <button>
+              <DiGithubFull  size={60}/> 
+            </button>
           </Link>
       </div>
   

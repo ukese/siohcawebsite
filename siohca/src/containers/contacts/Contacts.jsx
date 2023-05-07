@@ -23,7 +23,7 @@ const Contacts = () => {
                 <Fade delay={900}><Link to="https://www.linkedin.com/in/luka-petravić-77608423a/" target="_blank"> <AiFillLinkedin/></Link></Fade>
                 <Fade delay={1000}><Link to="https://twitter.com/LukaPetravic" target="_blank"> <VscTwitter/></Link></Fade>
               </div>
-              <p>Address: Taborska ulica 8, 2000 Maribor, Slovenia</p>
+              <p className='socials-box-address'>Address: Taborska ulica 8, 2000 Maribor, Slovenia</p>
             </div>
           </Fade>
           <Fade bottom delay={700}>
@@ -34,7 +34,7 @@ const Contacts = () => {
               <Fade delay={1000}><Link to="https://www.linkedin.com/in/rokmiklic/" target="_blank"> <AiFillLinkedin/></Link></Fade>
               <Fade delay={1100}><Link to="https://twitter.com/rok_____" target="_blank"> <VscTwitter/></Link></Fade>
               </div>
-              <p>Address: Taborska ulica 8, 2000 Maribor, Slovenia</p>
+              <p className='socials-box-address'>Address: Taborska ulica 8, 2000 Maribor, Slovenia</p>
             </div>
           </Fade>
         </div>

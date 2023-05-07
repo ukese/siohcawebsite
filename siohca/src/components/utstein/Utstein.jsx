@@ -16,9 +16,9 @@ const Utstein = () => {
           </p>
           <p className='margin-bottom-1'>It was first proposed for emergency medical services in <b>1991</b>. </p>
           <Link to='https://www.ahajournals.org/doi/full/10.1161/CIR.0000000000000144'>
-            <div className='button'>
+            <button>
               The complete consensus article.
-            </div>
+            </button>
           </Link>
         </div>
           <div className='utstein-text-column'>

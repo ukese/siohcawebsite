@@ -1,16 +1,18 @@
 // rafce -> React Arrow Function Component with Export
 import { Route, BrowserRouter, Routes } from 'react-router-dom';
 import React, { useState, useEffect } from 'react';
-import {Footer, Home, Faq, Team, Pub, Contacts, EuReCa3, Posts} from './containers';
+import { Home, Team, Pub, Contacts, EuReCa3, Posts} from './containers';
 import { ReactComponent as Logo } from  './assets/svg/brand/logo-small.svg';
 import {Navbar} from './components';
 import BlogPost from './containers/posts/BlogPost';
+import {getDaySuffix} from './utilities/DateUtils';
 const a = "22-4-5-adscnms.md".replace('.md', '').split('-').slice(3).join(' ')
 console.log("a",a)
 // Reload window to top on refresh
 window.onbeforeunload = function () {
   window.scrollTo(0, 0);
 }
+
 
 function App() {
 
@@ -31,12 +33,21 @@ function App() {
       .then(response => response.json())
       .then(data => {
         const fetchPosts = data.map(file => {
+          const monthNames = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+          const dateParts = file.name.replace('.md', '').split('-').slice(0, 3);
+          const year = dateParts[0];
+          const month = parseInt(dateParts[1], 10) - 1; // Subtract 1 to get zero-based index for monthNames array
+          const day = dateParts[2];
+        
+          const formattedDate = `${monthNames[month]} ${parseInt(day, 10)}${getDaySuffix(day)}, ${year}`;
+
+        
           return fetch(file.download_url)
             .then(response => response.text())
             .then(content => ({
               posttitle: file.name.replace('.md', '').split('-').slice(3).join(' ').charAt(0).toUpperCase()
-              + file.name.replace('.md', '').split('-').slice(3).join(' ').slice(1),
-              date: file.name.replace('.md', '').split('-').slice(0, 3).join('-'),
+                + file.name.replace('.md', '').split('-').slice(3).join(' ').slice(1),
+              date: formattedDate,
               link: file.name.replace('.md', '').split('-').slice(3).join(' ').replace(/-|_| /g, '').toLowerCase(),
               title: content.split('---')[1].split('Featuresdate')[0].replace('title:', '').trim(),
               categories: content.split('categories:')[1].split('tags:')[0].trim(),
@@ -62,7 +73,7 @@ function App() {
       ) : (
         <div className="main-content">
             
-          <BrowserRouter>
+          <BrowserRouter basename="/siohcawebsite">
           <Navbar />
           <Routes>
               <Route path='/' element={<Home />} />

@@ -25,19 +25,23 @@ img {
 }
 
 .card {
-    box-shadow: 5px 5px 5px 5px rgba(139, 113, 151, 0.1);
-    border-radius: 10px;
-    border: solid black 1px;
     padding: 1rem;
     width: 10vw;
     height: 15vw;
+    border-radius: 20px;
+    background-color: var(--color-box-light-transparent);
+    transition: 0.4s ease;
    
     
 }
 
 .card:hover{
-    background-color: var(--color-bg);
+    background-color: var(--color-box-light-transparent-hover);
+    transition: 0.4s ease;
+    box-shadow:  0px 0px 10px 10px var(--color-box-shadow);
+
 }
+
 
 #ps{
     font-size: 0.7rem;

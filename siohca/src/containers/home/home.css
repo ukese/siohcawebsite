@@ -10,12 +10,12 @@
 
 
 .home-background-ohca {
-
+    height: 100vh;
     color: var(--color-text);
     height: 80vh;
 }
 .home-background-recent{
-    height: 70vh;
+    height: 80vh;
     width: 100vw;
     
 }

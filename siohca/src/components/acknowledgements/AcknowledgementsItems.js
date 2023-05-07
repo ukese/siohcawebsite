@@ -16,7 +16,7 @@ export const AcknowledgementsItems = [
     },
     {
         name: 'Eva Zupan Horaček',
-        text: 'for navigating us through designing a user friendly paper form and giving us UX advice in general',
+        text: 'for navigating us through designing a user friendly paper form and giving us UX advice in general.',
         link: 'https://www.linkedin.com/in/evazupan/'
     },
    
