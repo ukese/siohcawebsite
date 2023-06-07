@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/siohcawebsite/static/css/main.bbc5ad81.css",
+    "main.css": "/siohcawebsite/static/css/main.f0bdff68.css",
     "main.js": "/siohcawebsite/static/js/main.8f7e6893.js",
     "static/js/227.0d37955e.chunk.js": "/siohcawebsite/static/js/227.0d37955e.chunk.js",
     "static/js/526.9296dbde.chunk.js": "/siohcawebsite/static/js/526.9296dbde.chunk.js",
@@ -35,7 +35,7 @@
     "index.html": "/siohcawebsite/index.html",
     "static/media/gradient-dark.svg": "/siohcawebsite/static/media/gradient-dark.b15b20eb995a13dad2f7.svg",
     "static/media/gradient-dark-bottom.svg": "/siohcawebsite/static/media/gradient-dark-bottom.da52f569fe3f894ba4f8.svg",
-    "main.bbc5ad81.css.map": "/siohcawebsite/static/css/main.bbc5ad81.css.map",
+    "main.f0bdff68.css.map": "/siohcawebsite/static/css/main.f0bdff68.css.map",
     "main.8f7e6893.js.map": "/siohcawebsite/static/js/main.8f7e6893.js.map",
     "227.0d37955e.chunk.js.map": "/siohcawebsite/static/js/227.0d37955e.chunk.js.map",
     "526.9296dbde.chunk.js.map": "/siohcawebsite/static/js/526.9296dbde.chunk.js.map",
@@ -44,7 +44,7 @@
     "787.b57fb56a.chunk.js.map": "/siohcawebsite/static/js/787.b57fb56a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bbc5ad81.css",
+    "static/css/main.f0bdff68.css",
     "static/js/main.8f7e6893.js"
   ]
 }
