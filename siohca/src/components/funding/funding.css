@@ -1,21 +1,22 @@
 .funding {
-    color:  hwb(247 42% 10%); 
+    color: hwb(247 42% 10%);
     width: 100vw;
     padding: 3rem 5rem;
     text-align: center;
     fill: var(--color-text-light) !important;
-
-
 }
+
 .funding p {
     font-weight: 200;
 }
+
 .funding h2 {
     align-items: center;
     text-align: center;
-    color:  hwb(247 54% 8%); 
+    color: hwb(247 54% 8%);
 }
-.funding-box{
+
+.funding-box {
     align-items: center;
 }
 
@@ -25,22 +26,21 @@
     padding: 0 20rem;
 
 }
-.funding-box.box{
+
+.funding-box.box {
     margin-top: 40px;
-    padding-top:30px;
+    padding-top: 30px;
 }
 
 
 
-.funding-logos{
+.funding-logos {
     padding-top: 10vw;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
     fill: var(--color-text-light) !important;
-    
-
 }
 
 .funding-logos img {

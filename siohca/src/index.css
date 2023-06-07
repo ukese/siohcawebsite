@@ -13,29 +13,29 @@
   background: var(--color-bg-gradient);
   background-size: 1000% 1000%;
   animation: gradient 15s ease infinite;
-  height: 100vh;
+  height: 120vh;
 
   --color-bg-gradient: linear-gradient(170deg, #6c42d5, #dfd9e4, #363ac8);
-  --color-bg:#dfd9e4;
-  --color-bg-extra-light:#f1efff;
-  --color-bg-light:#cbc5f3;
-  --color-bg-medium:#8676e4;
+  --color-bg: #dfd9e4;
+  --color-bg-extra-light: #f1efff;
+  --color-bg-light: #cbc5f3;
+  --color-bg-medium: #8676e4;
 
   --color-box-extra-light: #e6e3f6f4;
   --color-box-light: #d5d0f1f4;
   --color-box-light-hover: #ccc6eff4;
   --color-box-light-transparent: #ccc6ef71;
   --color-box-light-transparent-hover: #ccc6ef89;
-  --color-box-shadow-extra-light:#cec5f3f4;
-  --color-box-shadow-light:#d7d2f668;
+  --color-box-shadow-extra-light: #cec5f3f4;
+  --color-box-shadow-light: #d7d2f668;
   --color-box-shadow-medium: #7a68dd7a;
 
 
-  --color-underline:#a69bed;
-  --color-bg-deep:#544889;
-  --color-line-deep:#48315b;
-  --color-footer : #031B34;
-  --color-icon : #7f2fd4;
+  --color-underline: #a69bed;
+  --color-bg-deep: #544889;
+  --color-line-deep: #48315b;
+  --color-footer: #031B34;
+  --color-icon: #7f2fd4;
   --color-blog: #042c54;
   --color-text: #000000;
   --color-text-light: #fcfcfc;
@@ -57,14 +57,15 @@
 
 
 @keyframes gradient {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
-}
+  0% {
+    background-position: 0% 50%;
+  }
 
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}

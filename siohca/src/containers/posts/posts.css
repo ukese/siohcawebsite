@@ -3,22 +3,35 @@
     padding-bottom: 10vh;
 }
 
+.posts-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 4vw;
+    margin-bottom: 2vw;
+}
+
 .post {
-    margin: 5vw 0vw !important;
     border-radius: 20px;
     background-color: var(--color-box-light);
     padding: 2rem;
     transition: 0.4s ease;
-
+    height: 50vh;
+    overflow: hidden;
 }
 
-.post .post-title{
+.posts h1 {
+    margin-bottom: 2vw;
+}
+
+.post .post-title {
     margin-bottom: 1vw;
 }
-.post .post-date{
+
+.post .post-date {
     color: var(--color-subtext);
     margin-bottom: 1vw;
 }
+
 .post img {
     width: 40vw;
     padding: 1vw 0vw;
@@ -27,15 +40,18 @@
 .post video {
     width: 30vw;
     padding: 1vw 0vw;
+    overflow: hidden;
 }
 
 
 .post:hover {
     background-color: var(--color-box-light-hover);
     transition: 0.4s ease;
-    box-shadow:  0px 0px 10px 10px var(--color-box-shadow);
+    box-shadow: 0px 0px 10px 10px var(--color-box-shadow);
+    overflow: hidden;
 }
-.posts a{
+
+.posts a {
     color: var(--color-text);
 }
 
@@ -44,5 +60,3 @@
     flex-direction: row;
     justify-content: space-between;
 }
-
-

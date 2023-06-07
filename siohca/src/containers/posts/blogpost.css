@@ -1,7 +1,7 @@
 .blogpost {
     margin: 5vw 10vw 10vw;
 
-  }
+}
 
 .blogpost-content {
     padding-bottom: 10vh;
@@ -23,6 +23,7 @@
 .blogpost h2 {
     margin-bottom: 5vh;
 }
+
 .blogpost p {
     margin-bottom: 5vh;
     overflow: hidden;
@@ -36,7 +37,7 @@
     width: 100%;
 }
 
-.blogpost .img-wrapper img{
+.blogpost .img-wrapper img {
     margin: 0rem 4rem;
     padding-bottom: 2vh;
     width: 40vw;
@@ -51,6 +52,7 @@
     display: block;
     width: 40%;
 }
+
 .blogpost .img-wrapper {
     width: 40vw;
     padding: 0rem;

@@ -17,13 +17,14 @@
     box-shadow: 5px 5px 5px 5px var(--color-box-shadow-medium);
     border-radius: 20px;
     transition: transform .8s ease;
-    
+
 }
+
 .product-image img:hover {
     transform: scale(1.08);
     transition: transform .8s ease;
     border-radius: 20px;
-    
+
 }
 
 

@@ -1,16 +1,25 @@
 .acknowledgements {
     align-items: center;
-    padding: 5rem;
-  
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-bottom: 5rem;
+
+}
+
+.acknowledgements-title {
+    display: flex;
+    justify-content: center;
+    padding: 2.5rem 0rem;
+
+
 }
 
 .acknowledgements-content {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-
-    grid-gap:20px;
-
+    grid-gap: 20px;
 }
+
 .acknowledgements-content-box {
     border-radius: 20px;
     background-color: var(--color-box-light);
@@ -21,14 +30,14 @@
 .acknowledgements-content-box:hover {
     background-color: var(--color-box-light-hover);
     transition: 0.4s ease;
-    box-shadow:  0px 0px 10px 10px var(--color-box-shadow);
+    box-shadow: 0px 0px 10px 10px var(--color-box-shadow);
 }
 
 .acknowledgements-content-box a {
     color: var(--color-text);
 }
 
-.acknowledgements-content-box p{
+.acknowledgements-content-box p {
     font-weight: 300;
     font-size: 1.2vw;
 }
@@ -37,4 +46,3 @@
     color: var(--color-text-title);
     margin-bottom: 1vh;
 }
-

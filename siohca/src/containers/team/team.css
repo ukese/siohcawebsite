@@ -2,48 +2,55 @@
     position: relative;
 }
 
-.mentors-box{
+.mentors-box {
     display: grid;
-    justify-content: space-evenly;
-    grid-template-columns: repeat(6, 1fr);
-    grid-gap: 10px;
-    
+    grid-template-columns: repeat(2, 1fr);
+    margin: 3vw;
+    column-gap: 3vw;
+
 }
 
 
-.students-box{
+.students-box {
     display: grid;
-    justify-content: space-evenly;
-    align-items: center;
-    grid-template-columns: repeat(6, 1fr);
-    grid-gap: 10px;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 3vw;
+    column-gap: 3vw;
+
+
 }
 
-img {
-    width:100%;
-    border-radius: 10px;
+.name {
+    padding: 3vw;
+}
+
+.card img {
+    width: 30vw;
+    height: 30vw;
+    object-fit: cover;
+    opacity: 0.9;
+    margin: 0rem 2rem;
+    border-radius: 50%;
 }
 
 .card {
-    padding: 1rem;
-    width: 10vw;
-    height: 15vw;
-    border-radius: 20px;
-    background-color: var(--color-box-light-transparent);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 3vw 5vw 0vw 5vw;
     transition: 0.4s ease;
-   
-    
+    overflow: hidden;
+    opacity: 0.8;
 }
 
-.card:hover{
-    background-color: var(--color-box-light-transparent-hover);
+.card:hover {
     transition: 0.4s ease;
-    box-shadow:  0px 0px 10px 10px var(--color-box-shadow);
-
+    opacity: 1;
 }
 
 
-#ps{
+#ps {
     font-size: 0.7rem;
 }
 
@@ -53,26 +60,24 @@ img {
         grid-template-columns: repeat(4, 1fr);
         grid-template-rows: repeat(2, max-content);
         grid-gap: 2vw;
-
     }
 
-    .card{
+    .card {
         width: 12vw;
         height: 16vw;
     }
-    
+
 }
 
 
 @media screen and (max-width: 900px) {
     .students-box {
         grid-template-columns: repeat(3, 1fr);
-
     }
 
-    .card{
+    .card {
         width: 20vw;
         height: 26vw;
     }
-    
+
 }

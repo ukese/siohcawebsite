@@ -3,12 +3,13 @@
 }
 
 
-.blog-posts{
+.blog-posts {
     padding: 5vh 0vh;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 5vw;
 }
+
 .blog-posts-box {
     border-radius: 20px;
     background-color: var(--color-box-light);
@@ -17,9 +18,11 @@
     height: 40vh;
     overflow: hidden;
 }
+
 .blog-posts a {
     color: var(--color-text);
 }
+
 .blog-posts h2 {
     color: var(--color-text-title);
     margin-bottom: 1vh;
@@ -45,7 +48,7 @@
 .blog-posts-box:hover {
     background-color: var(--color-box-light-hover);
     transition: 0.4s ease;
-    box-shadow:  0px 0px 10px 10px var(--color-box-shadow);
+    box-shadow: 0px 0px 10px 10px var(--color-box-shadow);
 }
 
 .recent-button button {
@@ -61,13 +64,12 @@
         font-size: 2vw;
         padding: 2vw;
     }
-  }
+}
 
 
-  @media screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
     .recent-button button {
         font-size: 3vw;
         padding: 3vw;
     }
-  }
-  
+}

@@ -20,9 +20,8 @@
  
  .contacts-box .column-box {
      display: block;
-     box-shadow: 5px 5px 5px 5px rgba(139, 113, 151, 0.1);
+     background-color: var(--color-box-light);
      border-radius: 10px;
-     border: solid black 1px;
      padding: 2rem;
      transition: fade 0.4s ease-out;
      height: fit-content;
