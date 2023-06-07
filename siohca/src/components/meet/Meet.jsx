@@ -1,7 +1,7 @@
 import React from "react";
 import "./meet.css";
 import { Link } from "react-router-dom";
-import team from "../../assets/img/team.jpg";
+import team from "../../assets/img/team/team.jpg";
 
 function Meet() {
   return (
