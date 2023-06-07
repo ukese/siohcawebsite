@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/siohcawebsite/static/css/main.bbc5ad81.css",
-    "main.js": "/siohcawebsite/static/js/main.32aafccd.js",
+    "main.js": "/siohcawebsite/static/js/main.8f7e6893.js",
     "static/js/227.0d37955e.chunk.js": "/siohcawebsite/static/js/227.0d37955e.chunk.js",
     "static/js/526.9296dbde.chunk.js": "/siohcawebsite/static/js/526.9296dbde.chunk.js",
     "static/js/232.ff4dac58.chunk.js": "/siohcawebsite/static/js/232.ff4dac58.chunk.js",
     "static/js/237.6f9450ff.chunk.js": "/siohcawebsite/static/js/237.6f9450ff.chunk.js",
     "static/js/787.b57fb56a.chunk.js": "/siohcawebsite/static/js/787.b57fb56a.chunk.js",
-    "static/media/team.jpg": "/siohcawebsite/static/media/team.cc4d81c76c87c6e1f15a.jpg",
     "static/media/ulmf.svg": "/siohcawebsite/static/media/ulmf.fe2105765e44f771448d3f93340c9f20.svg",
     "static/media/ummf.svg": "/siohcawebsite/static/media/ummf.9d6c3bfc64a0d6af55c0a54cf46967a5.svg",
     "static/media/zdad.svg": "/siohcawebsite/static/media/zdad.1338c94641d9f828963bb5ffd8029c58.svg",
     "static/media/call.png": "/siohcawebsite/static/media/call.0a31fc488993acbf990f.png",
+    "static/media/team.jpg": "/siohcawebsite/static/media/team.81ccd92adb451257d689.jpg",
     "static/media/rm.jpg": "/siohcawebsite/static/media/rm.4af4cfbffaf218d58f50.jpg",
     "static/media/szum.svg": "/siohcawebsite/static/media/szum.8274891ce29701ade2ba093372258964.svg",
     "static/media/gt.jpg": "/siohcawebsite/static/media/gt.fc581079711432b4fbb0.jpg",
@@ -36,7 +36,7 @@
     "static/media/gradient-dark.svg": "/siohcawebsite/static/media/gradient-dark.b15b20eb995a13dad2f7.svg",
     "static/media/gradient-dark-bottom.svg": "/siohcawebsite/static/media/gradient-dark-bottom.da52f569fe3f894ba4f8.svg",
     "main.bbc5ad81.css.map": "/siohcawebsite/static/css/main.bbc5ad81.css.map",
-    "main.32aafccd.js.map": "/siohcawebsite/static/js/main.32aafccd.js.map",
+    "main.8f7e6893.js.map": "/siohcawebsite/static/js/main.8f7e6893.js.map",
     "227.0d37955e.chunk.js.map": "/siohcawebsite/static/js/227.0d37955e.chunk.js.map",
     "526.9296dbde.chunk.js.map": "/siohcawebsite/static/js/526.9296dbde.chunk.js.map",
     "232.ff4dac58.chunk.js.map": "/siohcawebsite/static/js/232.ff4dac58.chunk.js.map",
@@ -45,6 +45,6 @@
   },
   "entrypoints": [
     "static/css/main.bbc5ad81.css",
-    "static/js/main.32aafccd.js"
+    "static/js/main.8f7e6893.js"
   ]
 }
